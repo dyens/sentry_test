@@ -36,6 +36,7 @@ def index():
     logger.warning('This is warning')
     logger.error('This is error')
     logger.critical('This is critical')
+    1 / 0
 
     raise RuntimeError('This is runtime error')
     raise ValueError('This is my error')
